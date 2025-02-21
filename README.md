@@ -21,17 +21,20 @@ This is the landing page infrastructure for JEM Media, built with Next.js and mo
 ### Getting Started
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/jemedia/jemedia-website.git
 cd jemedia-website
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -55,6 +58,7 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 ### Manual Deployment
 
 1. Build the site locally:
+
 ```bash
 npm run build
 ```
@@ -62,6 +66,7 @@ npm run build
 2. The static files will be generated in the `out` directory.
 
 3. Push your changes to the main branch:
+
 ```bash
 git push origin main
 ```
