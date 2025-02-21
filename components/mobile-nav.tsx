@@ -1,14 +1,14 @@
-'use client';
+'use client'
 
-import Link from "next/link"
-import { Menu } from "lucide-react"
+import Link from 'next/link'
+import { Menu } from 'lucide-react'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Button } from "@/components/ui/button"
+} from '@/components/ui/dropdown-menu'
+import { Button } from '@/components/ui/button'
 
 export function MobileNav() {
   return (
@@ -34,4 +34,4 @@ export function MobileNav() {
   )
 }
 
-export default MobileNav; 
+export default MobileNav
