@@ -21,6 +21,10 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: 'export',
+  basePath: '/jemedia.xyz',
+  // This is needed for GitHub Pages deployment
+  assetPrefix: '/jemedia.xyz',
 }
 
 mergeConfig(nextConfig, userConfig)

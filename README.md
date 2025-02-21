@@ -48,6 +48,39 @@ npm run dev
 - `npm run format` - Format code with Prettier
 - `npm run format:check` - Check code formatting
 
+## Deployment
+
+This site is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+
+### Manual Deployment
+
+1. Build the site locally:
+```bash
+npm run build
+```
+
+2. The static files will be generated in the `out` directory.
+
+3. Push your changes to the main branch:
+```bash
+git push origin main
+```
+
+4. The GitHub Actions workflow will automatically:
+   - Build the site
+   - Deploy to GitHub Pages
+   - Make it available at https://jemedia.github.io/jemedia.xyz
+
+### GitHub Pages Setup
+
+To enable GitHub Pages deployment:
+
+1. Go to your repository settings
+2. Navigate to "Pages" section
+3. Under "Build and deployment":
+   - Source: "GitHub Actions"
+   - Branch: `main`
+
 ## Quality Checks
 
 This project uses several tools to ensure code quality:
