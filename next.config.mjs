@@ -22,9 +22,9 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
   output: 'export',
-  basePath: '/',
+  basePath: '',
   // This is needed for GitHub Pages deployment
-  assetPrefix: '/',
+  assetPrefix: '',
 }
 
 mergeConfig(nextConfig, userConfig)
