@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     'British services provider managing international internet properties',
   generator: 'v0.dev',
+  icons: {
+    icon: '/logo.svg',
+  },
 }
 
 export default function RootLayout({
